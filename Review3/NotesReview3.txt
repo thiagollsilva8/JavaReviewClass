@@ -1,0 +1,59 @@
+Logical operators: AND &&, OR ||, ! NOT
+Why: When we need to test 2 or more conditions in 1 statement.
+
+AND
+True && True => TRUE
+True && False => FALSE
+False && True => FALSE
+False && False => FALSE
+
+OR
+True OR True => TRUE
+True OR False => TRUE
+False OR True => TRUE
+False OR False => FALSE
+
+NOT
+True ! True =>
+
+Switch statement is another conditional statement in Java
+
+switch (variable) {
+    case1: code A;
+        break;
+
+    case2: code B;
+        break;
+
+    default: code C;
+}
+
+switch case is a great alternative for if else if
+switch case has limitations:
+        data types: NO boolean, long, double, float
+        operators: NO logical or relational
+
+Loops in Java : -
+- for
+- while
+- do while
+- enhanced or advanced for loop
+
+int time = 9;
+if (time > 7) {
+    System.out.println("Hi"); //code executes 1 time
+}
+
+while (condition) {
+    block of code to be repeated
+    }
+
+while (time > 7) {
+    System.out.println("Hi"); //code executes infinite times
+}
+
+-----------------------------------------------------------------
+
+do {
+    block of code to be repeated
+} while (condition);

@@ -1,0 +1,5 @@
+Review 5:
+
+for(dataType variable:array or collection) {
+    System.Out.Println(variable);
+}

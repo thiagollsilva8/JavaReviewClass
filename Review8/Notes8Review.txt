@@ -1,0 +1,19 @@
+Variables Syntax
+
+       OPTIONAL         OPTIONAL          MUST    MUST
+    access modifier non access modifier  dataType name;
+
+Methods Syntax:
+
+      OPTIONAL            OPTIONAL          MUST        MUST
+    access modifier non access modifier returnType, methodName() {
+
+    }
+
+Access Modifiers:
+
+    Order from most restrictive to less restrictive:
+    1. private
+    2. default
+    3. protected
+    4. public

@@ -1,0 +1,25 @@
+Review 4
+
+break - breaks /stops the loop
+continue - skips current iteration/move to the next iteration
+
+nested loop - loop inside another loop
+
+for () {
+
+    for() {}
+}
+
+for () {
+    while(){}
+}
+
+while (){
+       for(){}
+}
+
+Review 5:
+
+for(dataType variable:array or collection){
+        SOPln(variable);
+}
