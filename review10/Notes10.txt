@@ -1,0 +1,27 @@
+Interface:
+
+    1. Interfaces are contracts that help multiple classes stay on the same page.
+    2. They are also used to achieve abstraction and polymorphism.
+    3. Most of the time they contain abstract methods which other classes implement.
+    4. Interfaces also help us achieve multiple inheritance.
+
+When should we use abstract classes and when to use interface?
+
+    When there are not or very few similarities between two classes, then we use interface. When there are
+    a lot of instance fields and methods are the same in multiple classes, we can use abstract classes.
+
+Encapsulation:
+
+    Encapsulation allows us to write more secure code by making the fields private.
+    We create classes in which fields are defined as instance fields and getter setter
+    to control who can access and change the values of those fields.
+
+Collections framework:
+
+    1. The classes inside collections' framework are nit fixed in size.
+    2. These classes have built-in methods.
+
+Arrays:
+
+    They are very memory efficient. Because we can use primitive data types with arrays we can save up to 4 times
+    more memory.
