@@ -2,7 +2,7 @@ package review11;
 
 import java.util.ArrayList;
 
-public class E3ArrayList {
+public class E02ArrayList {
 
     public static void main(String[] args) {
 
@@ -14,10 +14,16 @@ public class E3ArrayList {
         arrayList.add("Solomon");
         arrayList.add("Jacob");
 
-        for (String name : arrayList) {
-            if (name.contains("a")) {
-                System.out.println(name);
-            }
+        System.out.println(arrayList);
+
+
+        for (int i = 0; i < arrayList.size(); i++) {
+            String name = arrayList.get(i);
+            if (name.contains("a"))
+            System.out.println(arrayList.get(i));
         }
+
+
+
     }
 }

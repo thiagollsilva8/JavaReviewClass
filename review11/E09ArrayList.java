@@ -8,7 +8,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import java.util.List;
 
 
-public class E9ArrayList {
+public class E09ArrayList {
 
     public static void main(String[] args) {
 

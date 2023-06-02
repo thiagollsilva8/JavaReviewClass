@@ -1,6 +1,6 @@
 package review11;
 
-public class E1ArrayList {
+public class E01ArrayList {
 
     public static void main(String[] args) {
 

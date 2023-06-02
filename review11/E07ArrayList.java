@@ -1,12 +1,13 @@
 package review11;
 
 import java.util.ArrayList;
+import java.util.List;
 
-public class E6ArrayList {
+public class E07ArrayList {
 
     public static void main(String[] args) {
 
-        ArrayList<String> student = new ArrayList<>();
+        List<String> student = new ArrayList<>();
         student.add("Abraham");
         student.add("Isaac");
         student.add("Jacob");
@@ -15,13 +16,8 @@ public class E6ArrayList {
         student.add("Jacob");
         student.add("Ester");
 
-        ArrayList<String> feeDefaulter = new ArrayList<>();
-        feeDefaulter.add("Jacob");
-        feeDefaulter.add("Solomon");
-        feeDefaulter.add("Isaac");
-        feeDefaulter.add("David");
-
-        student.removeAll(feeDefaulter);
+        student.remove("Jacob");
+        student.add(3, "James");
         System.out.println(student);
 
 

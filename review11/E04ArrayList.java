@@ -2,7 +2,7 @@ package review11;
 
 import java.util.ArrayList;
 
-public class E4ArrayList {
+public class E04ArrayList {
 
     public static void main(String[] args) {
 
