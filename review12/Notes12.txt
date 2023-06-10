@@ -1,0 +1,6 @@
+Maps:
+
+    Map is a dataStructure that can store data in the form of key value pairs.
+    There are three main types of maps.
+    Hashmap LinkedInHashmap and TreeMap.
+    Hashtable is a multithreading mechanism used in super computers with many cpu capabilities.
